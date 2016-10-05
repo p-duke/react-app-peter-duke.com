@@ -3,12 +3,12 @@ import React, {Component} from 'react';
 class Experience extends Component {
   render() {
     return(
-      <section className="bg-experience" id="Experience">
+      <section className="bg-experience" id="experience">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2>Experience</h2>
-                      <hr className="star-beige" />
+                      <hr className="star-primary" />
                   </div>
               </div>
               <div className="row">
@@ -28,7 +28,7 @@ class Experience extends Component {
                 </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3">
-                <ul>
+                <ul className="no-bullets">
                 {/* Ruby on Rails */}
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -74,7 +74,7 @@ class Experience extends Component {
                 <div className="clearfix visible-xs-block"></div>
                 <div className="col-xs-6 col-sm-3">
                 <ul>
-                <li>Git / Github`</li>
+                <li>Git / Github</li>
                 <li>Heroku</li>
                 <li>PostgreSQL, SQLite3</li>
                 <li>Object Oriented Programming</li>
@@ -82,7 +82,7 @@ class Experience extends Component {
                 </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3">
-                <ul>
+                <ul className="no-bullets">
                 {/* Git */}
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -134,7 +134,7 @@ class Experience extends Component {
               </div>
               <div className="row">
                   <div className="col-lg-12">
-                      <h4>NEW RELIC INC | FEB 2014 - MAY 2016</h4>
+                      <h4><a href="https://newrelic.com/">NEW RELIC INC | FEB 2014 - MAY 2016</a></h4>
                       <div>
                         <h5>SENIOR PROGRAMS SPECIALIST | AUG 2015 - MAY 2016</h5>
                         <ul>
@@ -175,7 +175,7 @@ class Experience extends Component {
               </div>
               <div className="row">
                   <div className="col-lg-12">
-                      <h4>BLEU MARKETING SOLUTIONS | MAY 2012 - FEB 2014</h4>
+                      <h4><a href="http://bleumarketing.com/">BLEU MARKETING SOLUTIONS | MAY 2012 - FEB 2014</a></h4>
                       <div>
                         <h5>MEDIA SPECIALIST | JAN 2013 - FEB 2014</h5>
                         <ul>

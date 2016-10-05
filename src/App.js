@@ -36,20 +36,20 @@ class App extends Component {
           <div id="hero-overlay"></div>
           <Grid className="text-center">
           <div id="hero-text" className="text-center">
-            <h1 className="text-uppercase margin">Peter Duke</h1>
+            <h1 className="intro-text margin">Peter Duke</h1>
             <hr />
-            <h2 className="margin">Full Stack Developer </h2>
-            {/* <a href="#about" className="btn btn-circle page-scroll">
+            <h2 className="intro-text skills margin">Full Stack Developer</h2>
+            <a href="#about" className="btn btn-circle page-scroll">
               <i className="fa fa-angle-double-down animated"></i>
-            </a> */}
+            </a>
           </div>
           <div>
           </div>
           </Grid>
         </Jumbotron>
 
-        <Portfolio />
         <About />
+        <Portfolio />
         <Experience />
         <Footer />
 
