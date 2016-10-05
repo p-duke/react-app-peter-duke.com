@@ -11,8 +11,8 @@ class About extends Component {
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
-                      <h2>Profile</h2>
-                      <hr className="star-yellow" />
+                      <h2>About</h2>
+                      <hr className="star-primary" />
                   </div>
               </div>
               <div className="row">
@@ -25,7 +25,7 @@ class About extends Component {
                       </button>
                   </div>
                   <div className="col-md-4 text-center">
-                      <Image width={246} height={246} src={require("../images/headshot.jpg")} circle />
+                      <Image className="center-block" width={246} height={246} src={require("../images/headshot.jpg")} circle responsive />
                       {/* <img className="img-responsive img-circle" src={require("../images/headshot.jpg")} alt="My headshot"/> */}
                   </div>
                   <div className="col-md-4">
@@ -46,9 +46,9 @@ class About extends Component {
                         <i className="glyphicon glyphicon-map-marker" aria-hidden="true"></i> Brooklyn, NY
                         <br/>
                         <br/>
-                        <strong>Interests:</strong>
-                        <br/>
                         </p>
+                        {/* <strong>Interests:</strong>
+                        <br/>
                         <ul className="no-bullets">
                           <li><i className="fa fa-pencil-square-o"></i> Design</li>
 
@@ -60,7 +60,7 @@ class About extends Component {
                           </li>
 
                           <li><i className="glyphicon glyphicon-road" aria-hidden="true"></i>  Adventures</li>
-                        </ul>
+                        </ul> */}
 
                   </div>
               </div>

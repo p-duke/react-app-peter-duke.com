@@ -6,12 +6,17 @@
     }
 
     .bg-about {
-    background-color: #fae596;
+    background-color: white;
     color: #173e43;
     }
 
     .bg-experience {
-      background-color: #dddfd4;
+      background-color: white;
+      color: #173e43;
+    }
+
+    .bg-portfolio {
+      background-color: #e3e3e3;
       color: #173e43;
     }
 
@@ -48,6 +53,12 @@
       align-items: center;
     }
 
+    .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
+    }
+
     #hero-text {
       color: #FFF;
     }
@@ -79,7 +90,7 @@
     /*Freelance Code*/
 
   body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
   }
   p {
@@ -102,8 +113,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
   }
 
@@ -139,18 +149,18 @@
 
   hr.star-light,
   hr.star-primary,
-  hr.star-yellow,
+  hr.star-grey,
   hr.star-beige {
     padding: 0;
     border: none;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
     max-width: 250px;
     margin: 25px auto 30px;
   }
   hr.star-light:after,
   hr.star-primary:after,
-  hr.star-yellow:after,
+  hr.star-grey:after,
   hr.star-beige:after {
     content: "\f0eb";
     font-family: FontAwesome;
@@ -178,12 +188,12 @@
     color: #2C3E50;
   }
 
-  hr.star-yellow {
+  hr.star-grey {
     border-color: #2C3E50;
   }
 
-  hr.star-yellow:after {
-    background-color: #fae596;
+  hr.star-grey:after {
+    background-color: #e3e3e3;
     color: #2C3E50;
   }
 
@@ -221,11 +231,12 @@
   }
   header .intro-text .name {
     display: block;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
   }
+
   header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
@@ -242,9 +253,9 @@
       font-size: 1.75em;
     }
   }
-  .navbar-custom {
+  /*.navbar-custom {
     background: #2C3E50;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border: none;
@@ -316,7 +327,7 @@
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em;
     }
-  }
+  }*/
   section {
     padding: 100px 0;
   }
@@ -440,15 +451,15 @@
     margin-bottom: 30px;
   }
   footer .footer-above {
-    padding-top: 50px;
-    background-color: #2C3E50;
+    padding-top: 20px;
+    background-color: #22A39F;
   }
   footer .footer-col {
     margin-bottom: 50px;
   }
   footer .footer-below {
-    padding: 25px 0;
-    background-color: #233140;
+    padding: 15px 0;
+    background-color: #173e43;
   }
   .btn-outline {
     color: white;
@@ -646,7 +657,7 @@
 /* Greyscale Style */
 
 a {
-  color: #42DCA3;
+  color: #173e43;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -663,8 +674,8 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  background-color: #173e43;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -720,7 +731,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: #173e43;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -792,7 +803,7 @@ a:focus {
 
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
