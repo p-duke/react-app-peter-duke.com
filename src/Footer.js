@@ -61,23 +61,24 @@ class Footer extends Component {
         <div className="footer-below">
               <div className="container">
                   <div className="row">
-                    <div className="col-lg-12 vcenter">
-                        <div>
-                          <button type="button" className="btn btn-info btn-lg">
-                            <span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume
-                          </button>
-                        </div>
-                        <div>
-                          <ul className="list-inline">
-                          <li>
-                          <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
-                          </li>
-                          <li>
-                          <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
-                          </li>
-                          </ul>
-                        </div>
-                        Copyright &copy; Peter Duke 2016
+                    <div className="col-offset-2 vcenter">
+                        <button type="submit" className="btn btn-warning btn-lg">
+                          <span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume
+                        </button>
+                        {/* <a href={require('../public/PeterDuke_Resume.pdf')} target="_blank">Read more</a> */}
+                    </div>
+                    <div className="col-md-4 vcenter">
+                      <ul className="list-inline">
+                      <li>
+                      <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
+                      </li>
+                      <li>
+                      <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
+                      </li>
+                      </ul>
+                    </div>
+                    <div className="col-offset-2 vcenter">
+                      Copyright &copy; Peter Duke 2016
                     </div>
                 </div>
             </div>
