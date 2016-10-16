@@ -39,12 +39,12 @@ class App extends Component {
             <h1 className="intro-text margin">Peter Duke</h1>
             <hr />
             <h2 className="intro-text skills margin">Full Stack Developer</h2>
-            <a href="#about" className="btn btn-circle page-scroll">
-              <i className="fa fa-angle-double-down animated"></i>
-            </a>
           </div>
           <div>
           </div>
+          <a href="#about" className="btn btn-circle page-scroll header-button">
+            <i className="fa fa-angle-double-down animated"></i>
+          </a>
           </Grid>
         </Jumbotron>
 

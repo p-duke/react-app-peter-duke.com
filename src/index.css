@@ -6,18 +6,29 @@
     }
 
     .bg-about {
-    background-color: white;
+    /*background-color: white;*/
+    background: url(../images/restaurant_icons.png) repeat 0 0;
     color: #173e43;
     }
 
     .bg-experience {
-      background-color: white;
+      /*background-color: white;*/
+      background: url(../images/seigaiha.png) repeat 0 0;
       color: #173e43;
     }
 
     .bg-portfolio {
-      background-color: #e3e3e3;
+      /*background: url(../images/seigaiha.png) repeat 0 0;*/
+      background-color: white;
       color: #173e43;
+    }
+
+    .skills-section {
+      font-size: 18px;
+    }
+
+    .font-a-link {
+      font-size: 15px;
     }
 
 
@@ -42,7 +53,7 @@
       right: 0px;
       opacity: 0.75;
       filter: alpha(opacity=75);
-      z-index: -11;
+      z-index: -5;
     }
 
     .vertical-center {
@@ -94,7 +105,8 @@
     overflow-x: hidden;
   }
   p {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
   }
   p.small {
     font-size: 16px;
@@ -125,11 +137,10 @@
   hr.thick-line {
     padding: 0;
     border: none;
-    border-top: solid 5px;
+    border-top: solid 2px;
     text-align: center;
-    max-width: 400px;
+    max-width: 250px;
     margin: 25px auto 30px;
-    color: #FFFFFF;
   }
 
   hr.thin-line-primary {
@@ -193,7 +204,7 @@
   }
 
   hr.star-grey:after {
-    background-color: #e3e3e3;
+    background-color: transparent;
     color: #2C3E50;
   }
 
@@ -202,7 +213,7 @@
   }
 
   hr.star-beige:after {
-    background-color: #dddfd4;
+    background-color: #f9f9eb;
     color: #2C3E50;
   }
 

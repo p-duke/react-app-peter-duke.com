@@ -1,14 +1,21 @@
 import React, {Component} from 'react';
+import {
+  OverlayTrigger,
+  Tooltip
+} from 'react-bootstrap';
+
 
 class Experience extends Component {
   render() {
+    // let tooltip = <Tooltip id={this.props.id}>Click to find out more!</Tooltip>;
+
     return(
       <section className="bg-experience" id="experience">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2>Experience</h2>
-                      <hr className="star-primary" />
+                      <hr className="thick-line" />
                   </div>
               </div>
               <div className="row">
@@ -18,16 +25,16 @@ class Experience extends Component {
                   </div>
               </div>
               <div className="row">
-                <div className="col-xs-6 col-sm-3">
-                <ul>
-                  <li>Ruby on Rails</li>
-                  <li>Javascript (AJAX, jQuery)</li>
-                  <li>React.js</li>
-                  <li>TDD (RSpec, Jasmine)</li>
-                  <li>HTML5/CSS3</li>
-                </ul>
+                <div className="col-xs-6 col-sm-3 skills-section">
+                  <ul>
+                    <li>Ruby on Rails</li>
+                    <li>Javascript (AJAX, jQuery)</li>
+                    <li>React.js</li>
+                    <li>TDD (RSpec, Jasmine)</li>
+                    <li>HTML5/CSS3</li>
+                  </ul>
                 </div>
-                <div className="col-xs-6 col-sm-3">
+                <div className="col-xs-6 col-sm-3 skills-section">
                 <ul className="no-bullets">
                 {/* Ruby on Rails */}
                   <li>
@@ -72,16 +79,16 @@ class Experience extends Component {
                 </ul>
                 </div>
                 <div className="clearfix visible-xs-block"></div>
-                <div className="col-xs-6 col-sm-3">
-                <ul>
-                <li>Git / Github</li>
-                <li>Heroku</li>
-                <li>PostgreSQL, SQLite3</li>
-                <li>Object Oriented Programming</li>
-                <li>Project Management</li>
-                </ul>
+                <div className="col-xs-6 col-sm-3 skills-section">
+                  <ul>
+                    <li>Git / Github</li>
+                    <li>Heroku</li>
+                    <li>PostgreSQL, SQLite3</li>
+                    <li>OO Programming</li>
+                    <li>Project Management</li>
+                  </ul>
                 </div>
-                <div className="col-xs-6 col-sm-3">
+                <div className="col-xs-6 col-sm-3 skills-section">
                 <ul className="no-bullets">
                 {/* Git */}
                   <li>
@@ -134,40 +141,58 @@ class Experience extends Component {
               </div>
               <div className="row">
                   <div className="col-lg-12">
-                      <h4><a href="https://newrelic.com/">NEW RELIC INC | FEB 2014 - MAY 2016</a></h4>
+                    <h3>
+                    <OverlayTrigger overlay={<Tooltip id={this.props.id}>Learn more about New Relic!</Tooltip>} placement="top" delayShow={300} delayHide={150}>
+                      <a target="_blank" href="https://newrelic.com/"><i className="fa fa-link font-a-link"></i> NEW RELIC INC | FEB 2014 - MAY 2016</a>
+                    </OverlayTrigger>
+                    </h3>
                       <div>
-                        <h5>SENIOR PROGRAMS SPECIALIST | AUG 2015 - MAY 2016</h5>
+                        <h4>SENIOR PROGRAMS SPECIALIST | AUG 2015 - MAY 2016</h4>
                         <ul>
                           <li>
-                          Developed a multi-channel marketing nurturing flow for SMB sized customers
+                            <p>
+                            Developed a multi-channel marketing nurturing flow for SMB sized customers
+                            </p>
                           </li>
                           <li>
-                          Produced 1-2 webinars monthly, cross-functionally that contributed to over $110k in
-                          attributed sales pipeline
+                            <p>
+                            Produced 1-2 webinars monthly, cross-functionally that contributed to over $110k in
+                            attributed sales pipeline
+                            </p>
                           </li>
                           <li>
-                          Acted as internal consultant to other departments for producing, promoting, and live
-                          distribution of webinars including post-webinar analysis, attendee and sales follow up
+                            <p>
+                            Acted as internal consultant to other departments for producing, promoting, and live
+                            distribution of webinars including post-webinar analysis, attendee and sales follow up
+                            </p>
                           </li>
                           <li>
-                          Worked cross-functionally to develop targeting and nurturing strategies with
-                          customers, partners, sales and marketing teams in order to accelerate sales pipeline
+                            <p>
+                            Worked cross-functionally to develop targeting and nurturing strategies with
+                            customers, partners, sales and marketing teams in order to accelerate sales pipeline
+                            </p>
                           </li>
                         </ul>
                       </div>
                       <div>
-                        <h5>MARKETING PROGRAMS SPECIALIST | FEB 2014 - AUG 2015 </h5>
+                        <h4>MARKETING PROGRAMS SPECIALIST | FEB 2014 - AUG 2015 </h4>
                         <ul>
                           <li>
-                          Queried business data using PostgreSQL, NRQL ( New Relic Query Language), and R scripts
+                            <p>
+                            Queried business data using PostgreSQL, NRQL ( New Relic Query Language), and R scripts
+                            </p>
                           </li>
                           <li>
-                          Managed all LinkedIn advertising and created a total of 1100+ marketing qualified
-                          leads with text ads, spotlight ads, and sponsored updates over the period of 3 quarters
+                            <p>
+                            Managed all LinkedIn advertising and created a total of 1100+ marketing qualified
+                            leads with text ads, spotlight ads, and sponsored updates over the period of 3 quarters
+                            </p>
                           </li>
                           <li>
-                          Extended further education by receiving a certification from Learning Tree in Visual
-                          Basic programming for Excel in order to streamline analysis, and reduce report runtime
+                            <p>
+                            Extended further education by receiving a certification from Learning Tree in Visual
+                            Basic programming for Excel in order to streamline analysis, and reduce report runtime
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -175,28 +200,38 @@ class Experience extends Component {
               </div>
               <div className="row">
                   <div className="col-lg-12">
-                      <h4><a href="http://bleumarketing.com/">BLEU MARKETING SOLUTIONS | MAY 2012 - FEB 2014</a></h4>
+                      <h3>
+                      <OverlayTrigger overlay={<Tooltip id={this.props.id}>Learn more about Bleu!</Tooltip>} placement="top" delayShow={300} delayHide={150}>
+                        <a target="_blank" href="http://bleumarketing.com/"><i className="fa fa-link font-a-link"></i> BLEU MARKETING SOLUTIONS | MAY 2012 - FEB 2014</a>
+                      </OverlayTrigger>
+                      </h3>
                       <div>
-                        <h5>MEDIA SPECIALIST | JAN 2013 - FEB 2014</h5>
+                        <h4>MEDIA SPECIALIST | JAN 2013 - FEB 2014</h4>
                         <ul>
                           <li>
-                          Implemented media planning and buying for both Technology and Healthcare verticals in domestic and international regions
+                            <p>
+                            Implemented media planning and buying for both Technology and Healthcare verticals in domestic and international regions
+                            </p>
                           </li>
                         </ul>
                       </div>
                       <div>
-                        <h5>PAID SEARCH SPECIALIST | JUN 2012 - JAN 2013</h5>
+                        <h4>PAID SEARCH SPECIALIST | JUN 2012 - JAN 2013</h4>
                         <ul>
                           <li>
-                          Managed over $30,000/month Adwords budget for both awareness and lead generation campaigns
+                            <p>
+                            Managed over $30,000/month Adwords budget for both awareness and lead generation campaigns
+                            </p>
                           </li>
                         </ul>
                       </div>
                       <div>
-                        <h5>ACCOUNT COORDINATOR | MAY 2012 - JAN 2013</h5>
+                        <h4>ACCOUNT COORDINATOR | MAY 2012 - JAN 2013</h4>
                         <ul>
                           <li>
-                          Assisted Account Directors in campaign planning, logistics, pitch presentations and market analysis related to digital, print, out-of-home and thought leadership events.
+                            <p>
+                            Assisted Account Directors in campaign planning, logistics, pitch presentations and market analysis related to digital, print, out-of-home and thought leadership events.
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -210,15 +245,15 @@ class Experience extends Component {
               </div>
               <div className="row">
                   <div className="col-lg-12">
-                      <h4>DEV BOOTCAMP | MAY 2016 - SEP 2016</h4>
+                      <h3>DEV BOOTCAMP | MAY 2016 - SEP 2016</h3>
                       <div>
-                        <h5>FULL STACK DEVELOPMENT | JAN 2013 - FEB 2014</h5>
+                        <h4>FULL STACK DEVELOPMENT | JAN 2013 - FEB 2014</h4>
                       </div>
                   </div>
                       <div className="col-lg-12">
-                          <h4>SAN FRANCISCO STATE UNIVERSITY | 2012</h4>
+                          <h3>SAN FRANCISCO STATE UNIVERSITY | 2012</h3>
                           <div>
-                            <h5>BACHELOR OF SCIENCE, BUSINESS ADMINISTRATION</h5>
+                            <h4>BACHELOR OF SCIENCE, BUSINESS ADMINISTRATION</h4>
                           </div>
                       </div>
                   </div>

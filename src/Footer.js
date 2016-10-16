@@ -63,17 +63,17 @@ class Footer extends Component {
                   <div className="row">
                     <div className="col-offset-2 vcenter">
                         <button type="submit" className="btn btn-warning btn-lg">
-                          <span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume
+                          <a href="https://drive.google.com/file/d/0B43Ydmpo69cbSG5rNVdGLVNCazg/view?usp=sharing" target="_blank"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
                         </button>
                         {/* <a href={require('../public/PeterDuke_Resume.pdf')} target="_blank">Read more</a> */}
                     </div>
                     <div className="col-md-4 vcenter">
                       <ul className="list-inline">
                       <li>
-                      <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
+                      <a target="_blank" href="https://github.com/p-duke" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
                       </li>
                       <li>
-                      <a href="#" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/peter-duke" className="btn-social btn-outline"><i className="fa fa-fw fa-linkedin"></i></a>
                       </li>
                       </ul>
                     </div>
