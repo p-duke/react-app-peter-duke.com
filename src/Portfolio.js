@@ -5,8 +5,7 @@ import {
   Modal,
   Button,
   OverlayTrigger,
-  Popover,
-  Tooltip
+  Popover
 } from 'react-bootstrap';
 
 
@@ -30,18 +29,11 @@ class Portfolio extends Component {
   }
 
 
-
-
   render() {
     const popover = (
-      <Popover id="modal-popover" title="Devconnect">
+      <Popover id="modal-popover">
         Click to see more!
       </Popover>
-    );
-    const tooltip = (
-      <Tooltip id="modal-tooltip">
-        wow.
-      </Tooltip>
     );
     return(
       <section className="bg-portfolio" id="portfolio">
@@ -49,7 +41,7 @@ class Portfolio extends Component {
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2>Portfolio</h2>
-                      <hr className="star-grey" />
+                      <hr className="thick-line" />
                   </div>
               </div>
 
