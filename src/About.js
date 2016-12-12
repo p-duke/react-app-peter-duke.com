@@ -12,7 +12,7 @@ class About extends Component {
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2>About</h2>
-                      <hr className="star-beige" />
+                      <hr className="star-grey" />
                   </div>
               </div>
               <div className="row">
@@ -21,7 +21,7 @@ class About extends Component {
                       <p>A former marketer turned full stack developer after working in the tech industry for four years. During that time helped clients and companies reach new customers with their brand. Took the leap into web development after pursuing programming for the past two years and never growing tired of learning a new concept or language. Now looking to have a greater impact by building software that enriches people's quality of life.</p>
                       <br/>
                       <button type="button" className="btn btn-info btn-lg">
-                        <a target="_blank" href="https://drive.google.com/file/d/0B43Ydmpo69cbSG5rNVdGLVNCazg/view?usp=sharing"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
+                        <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbNWJMVlNtTVBJejg"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
                       </button>
                   </div>
                   <div className="col-md-4 text-center">

@@ -28,7 +28,7 @@ class Navigation extends Component {
                           <a className="page-scroll" href="#about">About</a>
                       </li>
                       <li>
-                          <a className="page-scroll" href="#portfolio">Portfolio</a>
+                          <a className="page-scroll" href="#portfolio">Projects</a>
                       </li>
                       <li>
                           <a className="page-scroll" href="#experience">Experience</a>
