@@ -34,13 +34,20 @@ class Portfolio extends Component {
       <Popover id="modal-popover">
         Click to see more!
       </Popover>
+      );
+
+    const popoverHoverFocus = (
+      <Popover id="popover-trigger-hover-focus">
+        Click to demo the app!
+      </Popover>
     );
+
     return(
       <section className="bg-portfolio" id="portfolio">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
-                      <h2>Portfolio</h2>
+                      <h2>Projects</h2>
                       <hr className="thick-line" />
                   </div>
               </div>
@@ -81,8 +88,13 @@ class Portfolio extends Component {
                   <div>
                   <Media className="col-lg-12">
                     <Media.Body>
-                      <Media.Heading><bold>Devconnect</bold></Media.Heading>
+                      <Media.Heading><bold>Devconnect</bold>
+                      </Media.Heading>
                       <p>Selected as team lead for Devconnect, a hub for Dev Bootcamp graduates to connect and flourish in its thriving community plus extending the culture of learning through mentoring. The application was built with Ruby on Rails, Python, Flask, React.js, HTML5, and Bootstrap CSS.</p>
+                      <br/>
+                      <OverlayTrigger trigger={['hover','focus']} placement="top" overlay={popoverHoverFocus}>
+                        <p><a  target="_blank" href="https://devconnect-portal.herokuapp.com">Website: devconnect-portal.herokuapp.com</a></p>
+                      </OverlayTrigger>
                     </Media.Body>
                   </Media>
                   </div>
@@ -135,7 +147,10 @@ class Portfolio extends Component {
 
         <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>
-            <Modal.Title>Devconnect</Modal.Title>
+            <Modal.Title>Devconnect |
+            <OverlayTrigger trigger={['hover','focus']} placement="bottom" overlay={popoverHoverFocus}>
+              <a  target="_blank" href="https://devconnect-portal.herokuapp.com"> devconnect-portal.herokuapp.com</a>
+            </OverlayTrigger></Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <h4>User Functionality</h4>
@@ -166,6 +181,24 @@ class Portfolio extends Component {
                   <div className="overlay">
                     <h3>Profile Page</h3>
                     <p>Create and Edit your profile including skills, bio, and goals.</p>
+                  </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="img-responsive center-block" width={900} height={500} alt="900x500" src={require('../images/ForumHome.png')}/>
+                <Carousel.Caption className="carousel-text">
+                  <div className="overlay">
+                    <h3>Forum Topics</h3>
+                    <p>Read or contribute to a topic that interests you.</p>
+                  </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="img-responsive center-block" width={900} height={500} alt="900x500" src={require('../images/forum.png')}/>
+                <Carousel.Caption className="carousel-text">
+                  <div className="overlay">
+                    <h3>Forum Topic</h3>
+                    <p>Read or respond to posts made within that topic.</p>
                   </div>
                 </Carousel.Caption>
               </Carousel.Item>

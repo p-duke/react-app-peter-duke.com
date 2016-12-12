@@ -7,13 +7,13 @@
 
     .bg-about {
     /*background-color: white;*/
-    background: url(../images/restaurant_icons.png) repeat 0 0;
+    background: url(../images/brushed_alu.png) repeat 0 0;
     color: #173e43;
     }
 
     .bg-experience {
       /*background-color: white;*/
-      background: url(../images/seigaiha.png) repeat 0 0;
+      background: url(../images/brushed_alu.png) repeat 0 0;
       color: #173e43;
     }
 
@@ -204,7 +204,7 @@
   }
 
   hr.star-grey:after {
-    background-color: transparent;
+    background: url(../images/brushed_alu.png);
     color: #2C3E50;
   }
 

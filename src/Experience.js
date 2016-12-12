@@ -35,8 +35,8 @@ class Experience extends Component {
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3 skills-section">
-                <ul className="no-bullets">
-                {/* Ruby on Rails */}
+                {/* <ul className="no-bullets">
+                Ruby on Rails
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -44,15 +44,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* Javascript */}
-                  <li>
-                    <i className="fa fa-star no-bullets gold-star"></i>
-                    <i className="fa fa-star no-bullets gold-star"></i>
-                    <i className="fa fa-star no-bullets gold-star"></i>
-                    <i className="fa fa-star no-bullets grey-star"></i>
-                    <i className="fa fa-star grey-star no-bullets "></i>
-                  </li>
-                  {/* React.js */}
+                  Javascript
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -60,7 +52,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets grey-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* TDD */}
+                  React.js
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -68,7 +60,15 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets grey-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* HTML5 */}
+                  TDD
+                  <li>
+                    <i className="fa fa-star no-bullets gold-star"></i>
+                    <i className="fa fa-star no-bullets gold-star"></i>
+                    <i className="fa fa-star no-bullets gold-star"></i>
+                    <i className="fa fa-star no-bullets grey-star"></i>
+                    <i className="fa fa-star grey-star no-bullets "></i>
+                  </li>
+                  HTML5
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -76,7 +76,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                </ul>
+                </ul> */}
                 </div>
                 <div className="clearfix visible-xs-block"></div>
                 <div className="col-xs-6 col-sm-3 skills-section">
@@ -89,8 +89,8 @@ class Experience extends Component {
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3 skills-section">
-                <ul className="no-bullets">
-                {/* Git */}
+                {/* <ul className="no-bullets">
+                Git
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -98,7 +98,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* Heroku */}
+                  Heroku
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -106,7 +106,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets grey-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* PostgreSQL */}
+                  PostgreSQL
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -114,7 +114,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets grey-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* OOP */}
+                  OOP
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -122,7 +122,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets grey-star"></i>
                     <i className="fa fa-star grey-star no-bullets "></i>
                   </li>
-                  {/* Project Management */}
+                  Project Management
                   <li>
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star no-bullets gold-star"></i>
@@ -130,7 +130,7 @@ class Experience extends Component {
                     <i className="fa fa-star no-bullets gold-star"></i>
                     <i className="fa fa-star gold-star no-bullets "></i>
                   </li>
-                </ul>
+                </ul> */}
                 </div>
               </div>
               <div className="row">
