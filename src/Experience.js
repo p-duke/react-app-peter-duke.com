@@ -30,6 +30,7 @@ class Experience extends Component {
                     <li>Ruby on Rails</li>
                     <li>Javascript (AJAX, jQuery)</li>
                     <li>React.js</li>
+                    <li>Backbone.js</li>
                     <li>TDD (RSpec, Jasmine)</li>
                     <li>HTML5/CSS3</li>
                   </ul>
