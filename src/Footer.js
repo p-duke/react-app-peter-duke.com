@@ -78,7 +78,7 @@ class Footer extends Component {
                       </ul>
                     </div>
                     <div className="col-offset-2 vcenter">
-                      Copyright &copy; Peter Duke 2016
+                      Copyright &copy; Peter Duke 2017
                     </div>
                 </div>
             </div>
