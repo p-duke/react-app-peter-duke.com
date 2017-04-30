@@ -81,6 +81,7 @@ class Experience extends Component {
                 <div className="clearfix visible-xs-block"></div>
                 <div className="col-xs-6 col-sm-3 skills-section">
                   <ul>
+                    <li>VIM</li>
                     <li>Git / Github</li>
                     <li>Heroku</li>
                     <li>PostgreSQL, SQLite3</li>
@@ -137,6 +138,80 @@ class Experience extends Component {
                   <div className="col-lg-12">
                       <h3><i className="fa fa-pencil"></i> Work</h3>
                       <hr className="thin-line-primary"/>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-lg-12">
+                    <h3>
+                    <OverlayTrigger 
+                      overlay={<Tooltip id={this.props.id}>Learn more about Groundwork!</Tooltip>} placement="top" 
+                        delayShow={300} delayHide={150}>
+                      <a target="_blank" href="https://buildgroundwork.com/">
+                        <i className="fa fa-link font-a-link"></i> Groundwork Software | JAN 2017 - APR 2017</a>
+                    </OverlayTrigger>
+                    </h3>
+                      <div>
+                        <h4>Software Developer Apprentice</h4>
+                        <ul>
+                          <li>
+                            <p>
+                              Worked closely with senior developers and product manager to estimate, plan, and develop new production features
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Constructed front end features using Backbone.js that exposed new views or updated models/collections
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Backend Rails development included database migrations, background jobs, domain model development, creating and updating server resources
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Debugged production level bugs across the application stack
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                            Wrote test driven code on both the front and back end
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                            Became proficient in VIM
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                            Technologies: Rails, Backbone.js, jQuery, Rspec, Jasmine, Sidekiq, Git/Github, Rollbar, VIM
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-lg-12">
+                    <h3>
+                    <OverlayTrigger 
+                      overlay={<Tooltip id={this.props.id}>Learn more about Dev Bootcamp!</Tooltip>} placement="top" 
+                        delayShow={300} delayHide={150}>
+                      <a target="_blank" href="https://devbootcamp.com/">
+                        <i className="fa fa-link font-a-link"></i> Dev Bootcamp | MAY 2016 - SEPT 2016</a>
+                    </OverlayTrigger>
+                    </h3>
+                      <div>
+                        <h4>Software Developer</h4>
+                        <ul>
+                          <li>
+                            <p>
+                              18-week immersive course learning full stack web development. Dedicated 70+ hours per week learning, building, and deploying Rails web applications. Completed several project-based applications in an agile driven team environment.
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
                   </div>
               </div>
               <div className="row">
