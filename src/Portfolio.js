@@ -43,7 +43,7 @@ class Portfolio extends Component {
     );
 
     return(
-      <section className="bg-portfolio" id="portfolio">
+      <section className="bg-portfolio" id="projects">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
