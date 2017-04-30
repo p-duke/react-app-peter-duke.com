@@ -74,8 +74,7 @@
       color: #FFF;
     }
 
-    .carousel-caption .overlay
-    {
+    .carousel-caption .overlay {
       position: absolute;
       right: 0;
       bottom: 0;
