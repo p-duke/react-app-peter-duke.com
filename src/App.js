@@ -38,7 +38,7 @@ class App extends Component {
           <div id="hero-text" className="text-center">
             <h1 className="intro-text margin">Peter Duke</h1>
             <hr />
-            <h2 className="intro-text skills margin">Full Stack Developer</h2>
+            <h2 className="intro-text skills margin">Software Developer</h2>
           </div>
           <div>
           </div>
