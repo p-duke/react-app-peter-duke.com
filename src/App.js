@@ -40,14 +40,11 @@ class App extends Component {
             <hr />
             <h2 className="intro-text skills margin">Software Developer</h2>
           </div>
-          <div>
-          </div>
-          <a href="#about" className="btn btn-circle page-scroll header-button">
+          {/*<a href="#about" className="btn btn-circle page-scroll header-button">
             <i className="fa fa-angle-double-down animated"></i>
-          </a>
+          </a>*/}
           </Grid>
         </Jumbotron>
-
         <About />
         <Portfolio />
         <Experience />
