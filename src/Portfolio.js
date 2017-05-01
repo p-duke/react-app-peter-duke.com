@@ -135,8 +135,8 @@ class Portfolio extends Component {
                     <Media.Body>
                       <Media.Heading><bold>Space Shooter Arcade Game</bold>
                       </Media.Heading>
-                      <p>A retro style space shooter game built with HTML5 canvas and plain Javascript.</p>
-                      <p>Warning! This game has cool and cheesy game audio. If you want audio muted please mute on your computer before playing. Enjoy!</p>
+                      <p>A retro style arcade game built with HTML5 canvas and plain Javascript. The goal of this project was to build my foundation in plain Javascript, a better understanding of game development with HTML5 canvas, and learn about some important game development design patterns.</p>
+                      <p>WARNING! This game has authentic and cheesy arcade style audio. If you want audio muted be sure to mute on your computer before playing. Enjoy!</p>
                       <br/>
                     </Media.Body>
                   </Media>
@@ -256,9 +256,17 @@ class Portfolio extends Component {
         <div>
         <Modal show={this.state.arcadeGame} onHide={() => this.close('arcadeGame')} dialogClassName="arcade-game-modal">
           <Modal.Header closeButton>
-            <Modal.Title>Arcade Style Space Shooter</Modal.Title>
+            <Modal.Title>Space Shooter Arcade Game</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <p>What I learned building this game:</p>
+            <ul>
+              <li>Using multiple canvases to draw game pieces</li>
+              <li>Creating abstract objects that other game related objects will inherit from</li>
+              <li>A better understading of Javascripts prototype property</li>
+              <li>Using multiple canvases layered to reduce redrawing the game completely</li>
+              <li>The use of object pools to reuse old objects which limits creation and deletion to improve performance</li>
+            </ul>
             <p>Instructions:</p>
             <ul>
               <li>First click inside the game screen</li>
