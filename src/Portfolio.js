@@ -135,7 +135,8 @@ class Portfolio extends Component {
                     <Media.Body>
                       <Media.Heading><bold>Space Shooter Arcade Game</bold>
                       </Media.Heading>
-                      <p>A retro style space shooter game built with HTML5 canvas and plain Javascript</p>
+                      <p>A retro style space shooter game built with HTML5 canvas and plain Javascript.</p>
+                      <p>Warning! This game has cool and cheesy game audio. If you want audio muted please mute on your computer before playing. Enjoy!</p>
                       <br/>
                     </Media.Body>
                   </Media>
