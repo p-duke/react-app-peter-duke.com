@@ -111,7 +111,7 @@ class Portfolio extends Component {
                 </Media>
                 </div>
 
-                {/* Galaxy Space Shooter Project Section */}
+                {/* Space Quest Project Section */}
                 <div className="row">
                 <Media className="col-md-4">
                     <Media.Left align="middle">
@@ -123,7 +123,7 @@ class Portfolio extends Component {
                                      <i className="fa fa-search-plus fa-3x"></i>
                                  </div>
                              </div>
-                             <img className="img-responsive" src={require('../images/galaxy-shooter-game.png')} alt=""/>
+                             <img className="img-responsive" src={require('../images/space-quest-game.png')} alt=""/>
                          </a>
                          </OverlayTrigger>
                       </div>
@@ -133,7 +133,7 @@ class Portfolio extends Component {
                   <div>
                   <Media className="col-lg-12">
                     <Media.Body>
-                      <Media.Heading><bold>Space Shooter Arcade Game</bold>
+                      <Media.Heading><bold>Space Quest Arcade Game</bold>
                       </Media.Heading>
                       <p>A retro style arcade game built with HTML5 canvas and plain Javascript. The goal of this project was to build my foundation in plain Javascript, a better understanding of game development with HTML5 canvas, and learn about some important game development design patterns.</p>
                       <p>WARNING! This game has authentic and cheesy arcade style audio. If you want audio muted be sure to mute on your computer before playing. Enjoy!</p>
@@ -252,11 +252,11 @@ class Portfolio extends Component {
       </div>
       </div>
 
-        {/* Galaxy Space Shooter Modal */}
+        {/* Space Quest Modal */}
         <div>
         <Modal show={this.state.arcadeGame} onHide={() => this.close('arcadeGame')} dialogClassName="arcade-game-modal">
           <Modal.Header closeButton>
-            <Modal.Title>Space Shooter Arcade Game</Modal.Title>
+            <Modal.Title>Space Quest Arcade Game</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>What I learned building this game:</p>
