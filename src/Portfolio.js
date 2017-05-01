@@ -14,18 +14,19 @@ class Portfolio extends Component {
   constructor() {
     super();
     this.state = {
-      showModal: false
+      devconnect: false,
+      arcadeGame: false
     }
     this.close = this.close.bind(this);
     this.open = this.open.bind(this);
   }
 
-  close() {
-    this.setState({ showModal: false });
+  close(state) {
+    this.setState({ [state]: false });
   }
 
-  open() {
-    this.setState({ showModal: true });
+  open(state) {
+    this.setState({ [state]: true });
   }
 
 
@@ -33,6 +34,12 @@ class Portfolio extends Component {
     const popover = (
       <Popover id="modal-popover">
         Click to see more!
+      </Popover>
+      );
+
+    const popoverArcade = (
+      <Popover id="arcade-modal-popover">
+        Click to play!
       </Popover>
       );
 
@@ -67,12 +74,13 @@ class Portfolio extends Component {
               </div> */}
 
                 {/* Version 2 with Media object on left side */}
+                {/* DevConnect Project Section*/}
                 <div className="row">
                 <Media className="col-md-4">
                     <Media.Left align="middle">
                       <div className="portfolio-item">
                       <OverlayTrigger placement="bottom" overlay={popover}>
-                         <a onClick={this.open} href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
+                         <a onClick={() => this.open('devconnect')} ref='devconnect' id="devconnect" className="portfolio-link" data-toggle="modal">
                              <div className="caption">
                                  <div className="caption-content">
                                      <i className="fa fa-search-plus fa-3x"></i>
@@ -92,15 +100,43 @@ class Portfolio extends Component {
                       </Media.Heading>
                       <p>Selected as team lead for Devconnect, a hub for Dev Bootcamp graduates to connect and flourish in its thriving community plus extending the culture of learning through mentoring. The application was built with Ruby on Rails, Python, Flask, React.js, HTML5, and Bootstrap CSS.</p>
                       <br/>
-                      <OverlayTrigger trigger={['hover','focus']} placement="top" overlay={popoverHoverFocus}>
-                        <p><a  target="_blank" href="https://devconnect-portal.herokuapp.com">Website: devconnect-portal.herokuapp.com</a></p>
-                      </OverlayTrigger>
                     </Media.Body>
                   </Media>
                   </div>
                 </Media>
                 </div>
 
+                {/* Galaxy Space Shooter Project Section */}
+                <div className="row">
+                <Media className="col-md-4">
+                    <Media.Left align="middle">
+                      <div className="portfolio-item">
+                      <OverlayTrigger placement="bottom" overlay={popoverArcade}>
+                         <a onClick={() => this.open('arcadeGame')} ref='arcadeGame' href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
+                             <div className="caption">
+                                 <div className="caption-content">
+                                     <i className="fa fa-search-plus fa-3x"></i>
+                                 </div>
+                             </div>
+                             <img className="img-responsive" src={require('../images/galaxy-shooter-game.png')} alt=""/>
+                         </a>
+                         </OverlayTrigger>
+                      </div>
+                    </Media.Left>
+                </Media>
+                <Media>
+                  <div>
+                  <Media className="col-lg-12">
+                    <Media.Body>
+                      <Media.Heading><bold>Space Shooter Arcade Game</bold>
+                      </Media.Heading>
+                      <p>A retro style space shooter game built with HTML5 canvas and plain Javascript</p>
+                      <br/>
+                    </Media.Body>
+                  </Media>
+                  </div>
+                </Media>
+                </div>
                 {/* Version 3 with Carousel */}
                 {/* <div className="row">
                   <div className="container-fluid">
@@ -142,10 +178,9 @@ class Portfolio extends Component {
                     </Media>
                 </div> */}
 
-
+        {/* Devconnect Modal */}
         <div>
-
-        <Modal show={this.state.showModal} onHide={this.close}>
+        <Modal show={this.state.devconnect} onHide={() => this.close('devconnect')}>
           <Modal.Header closeButton>
             <Modal.Title>Devconnect |
             <OverlayTrigger trigger={['hover','focus']} placement="bottom" overlay={popoverHoverFocus}>
@@ -205,17 +240,30 @@ class Portfolio extends Component {
             </Carousel>
           </Modal.Body>
           <Modal.Footer>
-            <Button onClick={this.close}>Close</Button>
+            <Button onClick={() => this.close('devconnect')}>Close</Button>
           </Modal.Footer>
         </Modal>
       </div>
+      </div>
 
-
-
-
-          </div>
-      </section>
-
+        {/* Galaxy Space Shooter Modal */}
+        <div>
+        <Modal show={this.state.arcadeGame} onHide={() => this.close('arcadeGame')} dialogClassName="arcade-game-modal">
+          <Modal.Header closeButton>
+            <Modal.Title>Arcade Style Space Shooter</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <h4>User Functionality</h4>
+            <div className="iframe-wrapper">
+              <iframe src="https://protected-temple-76163.herokuapp.com" width="600" height="360"></iframe>
+            </div> 
+          </Modal.Body>
+          <Modal.Footer>
+          <Button onClick={() => this.close('arcadeGame')}>Close</Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
+    </section>
     );
   }
 }

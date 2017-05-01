@@ -31,6 +31,14 @@
       font-size: 15px;
     }
 
+    .iframe-wrapper {
+      height: 360px;
+      width: 600px;
+    }
+
+    .arcade-game-modal {
+      width: 650px; 
+    }
 
     #hero {
       margin: 0;
@@ -95,7 +103,6 @@
     .grey-star {
       color: #bdbdbd;
     }
-
 
     /*Freelance Code*/
 
