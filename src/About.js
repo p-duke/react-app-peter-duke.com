@@ -21,7 +21,7 @@ class About extends Component {
                       <p>A former marketer turned full stack developer after working in the tech industry for four years. Took the leap into web development after pursuing programming for the past two years and never grew tired of learning a new concept or language. Now looking to have a greater impact by building software that enriches people's quality of life.</p>
                       <br/>
                       <button type="button" className="btn btn-info btn-lg">
-                        <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbTzR2NFQ3eFlDOEU"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
+                        <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbTFQtV0pxb2xRWHM"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
                       </button>
                   </div>
                   <div className="col-md-4 text-center">
