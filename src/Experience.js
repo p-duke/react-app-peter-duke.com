@@ -160,9 +160,7 @@ class Experience extends Component {
                             </p>
                           </li>
                           <li>
-                            <p>
-                              Constructed front end features using Backbone.js that exposed new views or updated models/collections
-                            </p>
+                            <p>Constructed front end features using Backbone.js</p>
                           </li>
                           <li>
                             <p>
@@ -187,28 +185,6 @@ class Experience extends Component {
                           <li>
                             <p>
                             Technologies: Rails, Backbone.js, jQuery, Rspec, Jasmine, Sidekiq, Git/Github, Rollbar, VIM
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                  </div>
-              </div>
-              <div className="row">
-                  <div className="col-lg-12">
-                    <h3>
-                    <OverlayTrigger 
-                      overlay={<Tooltip id={this.props.id}>Learn more about Dev Bootcamp!</Tooltip>} placement="top" 
-                        delayShow={300} delayHide={150}>
-                      <a target="_blank" href="https://devbootcamp.com/">
-                        <i className="fa fa-link font-a-link"></i> Dev Bootcamp | MAY 2016 - SEPT 2016</a>
-                    </OverlayTrigger>
-                    </h3>
-                      <div>
-                        <h4>Software Developer</h4>
-                        <ul>
-                          <li>
-                            <p>
-                              18-week immersive course learning full stack web development. Dedicated 70+ hours per week learning, building, and deploying Rails web applications. Completed several project-based applications in an agile driven team environment.
                             </p>
                           </li>
                         </ul>
@@ -323,7 +299,7 @@ class Experience extends Component {
                   <div className="col-lg-12">
                       <h3>DEV BOOTCAMP | MAY 2016 - SEP 2016</h3>
                       <div>
-                        <h4>FULL STACK DEVELOPMENT | JAN 2013 - FEB 2014</h4>
+                        <h4>FULL STACK DEVELOPMENT</h4>
                       </div>
                   </div>
                       <div className="col-lg-12">
