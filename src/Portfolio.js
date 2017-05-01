@@ -100,6 +100,11 @@ class Portfolio extends Component {
                       </Media.Heading>
                       <p>Selected as team lead for Devconnect, a hub for Dev Bootcamp graduates to connect and flourish in its thriving community plus extending the culture of learning through mentoring. The application was built with Ruby on Rails, Python, Flask, React.js, HTML5, and Bootstrap CSS.</p>
                       <br/>
+                      <p>Website:
+                        <OverlayTrigger trigger={['hover','focus']} placement="bottom" overlay={popoverHoverFocus}>
+                        <a target="_blank" href="https://devconnect-portal.herokuapp.com"> devconnect-portal.herokuapp.com</a>
+                        </OverlayTrigger>
+                      </p>
                     </Media.Body>
                   </Media>
                   </div>
@@ -253,7 +258,13 @@ class Portfolio extends Component {
             <Modal.Title>Arcade Style Space Shooter</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>User Functionality</h4>
+            <p>Instructions:</p>
+            <ul>
+              <li>First click inside the game screen</li>
+              <li>Use the up, down, left, right keys to move</li>
+              <li>Press the spacebar to shoot</li>
+              <li>Shoot as many enemy ships as you can and get the high score!</li>
+            </ul>
             <div className="iframe-wrapper">
               <iframe src="https://protected-temple-76163.herokuapp.com" width="600" height="360"></iframe>
             </div> 

@@ -58,7 +58,6 @@ class App extends Component {
                 <i className="fa fa-chevron-up"></i>
             </a>
         </div>
-
       </div>
     );
   }
