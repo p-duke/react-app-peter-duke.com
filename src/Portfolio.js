@@ -257,6 +257,7 @@ class Portfolio extends Component {
         <Modal show={this.state.arcadeGame} onHide={() => this.close('arcadeGame')} dialogClassName="arcade-game-modal">
           <Modal.Header closeButton>
             <Modal.Title>Space Quest Arcade Game</Modal.Title>
+            <p>(Please allow the game a few seconds to load)</p>
           </Modal.Header>
           <Modal.Body>
             <p>What I learned building this game:</p>
