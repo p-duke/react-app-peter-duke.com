@@ -11,7 +11,7 @@ class Experience extends Component {
 
     return(
       <section className="bg-experience" id="experience">
-          <div className="container">
+          <div className="container bg-exp-container">
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2>Experience</h2>
@@ -152,7 +152,7 @@ class Experience extends Component {
                     </OverlayTrigger>
                     </h3>
                       <div>
-                        <h4>Software Developer Apprentice</h4>
+                        <h4>Software Developer Intern</h4>
                         <ul>
                           <li>
                             <p>

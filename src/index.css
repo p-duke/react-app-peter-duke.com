@@ -11,10 +11,15 @@
     color: #173e43;
     }
 
+
     .bg-experience {
-      /*background-color: white;*/
-      background: url(../images/brushed_alu.png) repeat 0 0;
+      background: url(../images/comic-books.jpg) repeat;
       color: #173e43;
+    }
+
+    .bg-exp-container {
+      background-color: white;
+      padding: 40px;
     }
 
     .bg-portfolio {
