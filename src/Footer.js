@@ -63,7 +63,7 @@ class Footer extends Component {
                   <div className="row">
                     <div className="col-offset-2 vcenter">
                         <button type="submit" className="btn btn-warning btn-lg">
-                          <a href="https://drive.google.com/open?id=0B43Ydmpo69cbRTBUSVdETWRCMFk" target="_blank"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
+                          <a href="https://drive.google.com/open?id=0B43Ydmpo69cbTW13T3hhTEgweW8" target="_blank"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
                         </button>
                         {/* <a href={require('../public/PeterDuke_Resume.pdf')} target="_blank">Read more</a> */}
                     </div>

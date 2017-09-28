@@ -29,9 +29,8 @@ class Experience extends Component {
                   <ul>
                     <li>Ruby on Rails</li>
                     <li>Javascript (AJAX, jQuery)</li>
-                    <li>React.js</li>
-                    <li>Backbone.js</li>
-                    <li>TDD (RSpec, Jasmine)</li>
+                    <li>React.js / Redux / Backbone.js</li>
+                    <li>Graphql</li>
                     <li>HTML5/CSS3</li>
                   </ul>
                 </div>
@@ -83,11 +82,10 @@ class Experience extends Component {
                 <div className="col-xs-6 col-sm-3 skills-section">
                   <ul>
                     <li>VIM</li>
+                    <li>TDD (RSpec, Jasmine)</li>
                     <li>Git / Github</li>
-                    <li>Heroku</li>
-                    <li>PostgreSQL, SQLite3</li>
+                    <li>SQL</li>
                     <li>OO Programming</li>
-                    <li>Project Management</li>
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3 skills-section">
@@ -145,6 +143,34 @@ class Experience extends Component {
                   <div className="col-lg-12">
                     <h3>
                     <OverlayTrigger 
+                      overlay={<Tooltip id={this.props.id}>Learn more about PolicyGenius!</Tooltip>} placement="top" 
+                        delayShow={300} delayHide={150}>
+                      <a target="_blank" href="https://policygenius.com/">
+                        <i className="fa fa-link font-a-link"></i> PolicyGenius | JUN 2017 - PRESENT</a>
+                    </OverlayTrigger>
+                    </h3>
+                      <div>
+                        <h4>Software Engineer</h4>
+                        <ul>
+                          <li>
+                            <p>
+                              Worked closely on a team tasked with migrating a Wordpress based blog to a custom CMS platform which included creating custom CMS templates
+                            </p>
+                          </li>
+                          <li>
+                            <p> Contributed to an internal CRM tool that helped insurance agents manage clients </p>
+                          </li>
+                          <li>
+                            <p> Worked on various internal applications that included Rails, React.js, Redux, and Graphql, Middleman framework, and DatoCMS </p>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-lg-12">
+                    <h3>
+                    <OverlayTrigger 
                       overlay={<Tooltip id={this.props.id}>Learn more about Groundwork!</Tooltip>} placement="top" 
                         delayShow={300} delayHide={150}>
                       <a target="_blank" href="https://buildgroundwork.com/">
@@ -184,7 +210,7 @@ class Experience extends Component {
                           </li>
                           <li>
                             <p>
-                            Technologies: Rails, Backbone.js, jQuery, Rspec, Jasmine, Sidekiq, Git/Github, Rollbar, VIM
+                            Technologies: Rails, Backbone.js, jQuery, Rspec, Jasmine, Git/Github, VIM
                             </p>
                           </li>
                         </ul>
