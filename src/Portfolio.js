@@ -15,7 +15,8 @@ class Portfolio extends Component {
     super();
     this.state = {
       devconnect: false,
-      arcadeGame: false
+      arcadeGame: false,
+      pg: false,
     }
     this.close = this.close.bind(this);
     this.open = this.open.bind(this);
@@ -40,6 +41,12 @@ class Portfolio extends Component {
     const popoverArcade = (
       <Popover id="arcade-modal-popover">
         Click to play!
+      </Popover>
+      );
+
+    const popoverPolicyGenius = (
+      <Popover id="pg-modal-popover">
+        Click to watch!
       </Popover>
       );
 
@@ -137,6 +144,44 @@ class Portfolio extends Component {
                       </Media.Heading>
                       <p>A retro style arcade game built with HTML5 canvas and plain Javascript. The goal of this project was to build my foundation in plain Javascript, a better understanding of game development with HTML5 canvas, and learn about some important game development design patterns.</p>
                       <p>WARNING! This game has authentic and cheesy arcade style audio. If you want audio muted be sure to mute on your computer before playing. Enjoy!</p>
+                      <br/>
+                    </Media.Body>
+                  </Media>
+                  </div>
+                </Media>
+                </div>
+
+                {/* PolicyGenius Project Section */}
+                <div className="row">
+                <Media className="col-md-4">
+                    <Media.Left align="middle">
+                      <div className="portfolio-item">
+                      <OverlayTrigger placement="bottom" overlay={popoverPolicyGenius}>
+                         <a onClick={() => this.open('pg')} ref='pg' href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
+                             <div className="caption">
+                                 <div className="caption-content">
+                                     <i className="fa fa-search-plus fa-3x"></i>
+                                 </div>
+                             </div>
+                             <img className="img-responsive" src={require('../images/pg-experience.png')} alt=""/>
+                         </a>
+                         </OverlayTrigger>
+                      </div>
+                    </Media.Left>
+                </Media>
+                <Media>
+                  <div>
+                  <Media className="col-lg-12">
+                    <Media.Body>
+                      <Media.Heading><bold>PolicyGenius CMS Project</bold>
+                      </Media.Heading>
+                      <p>
+                        The PolicyGenius content marketing team produces many product and blog articles each week.
+                        Traditionally they were managing the publishing of those articles through a Wordpress platform. 
+                        The goal of this project was to create a new publishing platform that would transition existing Wordpress content while also giving them the ease of publishing new content.
+                        As part of my contribution to this project I helped create custom static CMS templates that integrated a Ruby framework called Middleman with a tool called DatoCMS.
+                      </p>
+                      <p>Click to watch a brief video of some of the work!</p>
                       <br/>
                     </Media.Body>
                   </Media>
@@ -281,6 +326,33 @@ class Portfolio extends Component {
           </Modal.Body>
           <Modal.Footer>
           <Button onClick={() => this.close('arcadeGame')}>Close</Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
+
+      <div>
+        <Modal show={this.state.pg} onHide={() => this.close('pg')} dialogClassName="pg-modal">
+          <Modal.Header closeButton>
+            <Modal.Title>PolicyGenius CMS Project</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>What I learned working on this project:</p>
+            <ul>
+              <li>Working with BEM & Atomic Design CSS</li>
+              <li>Help build a custom CDN and with separate build pipeline with Buildkite</li>
+              <li>Building a custom artcile scroll spy with Javascript Intersection Observer</li>
+              <li>Tracking page analytics and visits with Segment.io</li>
+              <li>Creating dynamic pages and custom templates from external data source (DatoCMS)</li>
+              <li>Making mobile responsive web pages</li>
+              <li>Working with Handlebars templating</li>
+              <li>Communicating with outside teams and product management on technical requirements</li>
+            </ul>
+            <div className="iframe-wrapper">
+              <iframe src="https://drive.google.com/file/d/0B43Ydmpo69cbNk85Ti1QUWdSVTA/preview" width="600" height="360"></iframe>
+            </div>
+          </Modal.Body>
+          <Modal.Footer>
+          <Button onClick={() => this.close('pg')}>Close</Button>
           </Modal.Footer>
         </Modal>
       </div>

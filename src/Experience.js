@@ -25,7 +25,7 @@ class Experience extends Component {
                   </div>
               </div>
               <div className="row">
-                <div className="col-xs-6 col-sm-3 skills-section">
+                <div className="col-md-6 col-sm-3 skills-section">
                   <ul>
                     <li>Ruby on Rails</li>
                     <li>Javascript (AJAX, jQuery)</li>
@@ -79,7 +79,7 @@ class Experience extends Component {
                 </ul> */}
                 </div>
                 <div className="clearfix visible-xs-block"></div>
-                <div className="col-xs-6 col-sm-3 skills-section">
+                <div className="col-md-6 col-sm-3 skills-section">
                   <ul>
                     <li>VIM</li>
                     <li>TDD (RSpec, Jasmine)</li>

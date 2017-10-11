@@ -45,6 +45,11 @@
       width: 650px; 
     }
 
+    .pg-modal {
+      width: 50%;
+      height: 100%;
+    }
+
     #hero {
       margin: 0;
       background-image: url(./iron-man.jpg);
