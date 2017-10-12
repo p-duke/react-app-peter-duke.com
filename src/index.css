@@ -302,6 +302,7 @@
   #projects .portfolio-item {
     margin: 0 0 15px;
     right: 0;
+    box-shadow: 0px 7px 15px -2px grey;
   }
   #projects .portfolio-item .portfolio-link {
     display: block;
