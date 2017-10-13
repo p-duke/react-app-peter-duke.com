@@ -17,12 +17,16 @@ class About extends Component {
               </div>
               <div className="row">
                   <div className="col-md-4">
-                      <h3>About me</h3>
-                      <p>A former marketer turned full stack developer after working in the tech industry for four years. Took the leap into web development after pursuing programming for the past two years and never grew tired of learning a new concept or language. Now looking to have a greater impact by building software that enriches people's quality of life.</p>
-                      <br/>
-                      <button type="button" className="btn btn-info btn-lg">
-                        <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbTW13T3hhTEgweW8"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
-                      </button>
+                    <h3>About me</h3>
+                    <p>
+                      A former marketer turned full stack developer after working in the tech industry for four years.
+                      Took the leap into software development after pursuing programming for the past two years and never grew tired of learning a new concept or language.
+                      Now looking to have a greater impact by building software that enriches people's quality of life.
+                    </p>
+                    <br/>
+                    <button type="button" className="btn btn-info btn-lg">
+                      <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbTW13T3hhTEgweW8"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
+                    </button>
                   </div>
                   <div className="col-md-4 text-center">
                       <Image className="center-block" width={246} height={246} src={require("../images/headshot.jpg")} circle responsive />
