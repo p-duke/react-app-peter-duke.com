@@ -103,12 +103,12 @@ class Portfolio extends Component {
                       <div className="portfolio-item">
                       <OverlayTrigger placement="bottom" overlay={popoverPolicyGenius}>
                          <a onClick={() => this.open('pg')} ref='pg' href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
-                             <div className="caption">
-                                 <div className="caption-content">
-                                     <i className="fa fa-search-plus fa-3x"></i>
-                                 </div>
+                           <div className="caption">
+                             <div className="caption-content">
+                               <i className="fa fa-search-plus fa-3x"></i>
                              </div>
-                             <img className="img-responsive" src={require('../images/pg-experience.png')} alt=""/>
+                           </div>
+                           <img className="img-responsive" src={require('../images/pg-experience.png')} alt=""/>
                          </a>
                          </OverlayTrigger>
                       </div>
@@ -122,10 +122,8 @@ class Portfolio extends Component {
                         <bold>PolicyGenius.com CMS Project</bold>
                       </Media.Heading>
                       <p>
-                        The PolicyGenius content marketing team produces many product and blog articles each week.
+                        The PolicyGenius content marketing team produces product and blog related articles each week.
                         Traditionally the team was managing the publishing of those articles through a Wordpress platform.
-                      </p>
-                      <p>
                         The goal of this project was to create a new publishing platform that would transition existing Wordpress content while also giving them the ease of publishing new content.
                       </p>
                       <p>
@@ -203,9 +201,10 @@ class Portfolio extends Component {
                         <bold>BingeWatch</bold>
                       </Media.Heading>
                       <p>
-                        The best first place to find all your favorite movies and build your personal collection!
+                        Tired of trying to figure out what to watch with your friends, family or spouse?
+                        One place to keep a list of all you’re favorite movies or ones you’ve always wanted to watch!
                         This application allows users to search for movies using the premiere source for movie metadata, TMDb (The Movie Database).
-                        Sign up, find a movie you've always wanted to see, or one of your favorites and add it to your collection. 
+                        It’s as easy as sign up, search and add!
                       </p>
                       <br/>
                       <p>Website:
@@ -404,11 +403,12 @@ class Portfolio extends Component {
           </Modal.Header>
           <Modal.Body>
             <p>
-              As part of my contribution to this project I helped create custom dynamic content templates that integrated a Ruby framework called Middleman with a tool called DatoCMS.
-              These specific pages were a part of two types of dynamic pages for the Long Term Disability Insurance products. First, a learning center where customers can gain information
-              to make more informed decisions plus an article template for the content team to quickly create the product related articles.
-              <br/>
-              Check out a live production example here:
+              As part of my contribution to this project I helped create custom dynamic content templates for the Long Term Disability products.
+              This included a dynamic template for rapidly creating articles plus a learning center where customers can see a collection of those articles together to help them make more informed decisions.
+            </p>
+            <br/>
+            <p>
+              Check out live production example here:
               <ul>
                 <li>
                   <a target="_blank" href="https://www.policygenius.com/long-term-disability-insurance/learn"> https://www.policygenius.com/long-term-disability-insurance/learn</a>
@@ -420,12 +420,12 @@ class Portfolio extends Component {
             </p>
             <p>What I learned working on this project:
               <ul>
-                <li>Working with BEM & Atomic Design CSS</li>
-                <li>Help build a custom CDN and with separate build pipeline with Buildkite</li>
-                <li>Building a custom artcile scroll spy with Javascript Intersection Observer</li>
-                <li>Tracking page analytics and visits with Segment.io</li>
-                <li>Creating dynamic pages and custom templates from external data source (DatoCMS)</li>
+                <li>Creating dynamic pages from an external data source with the Ruby framework Middleman and DatoCMS</li>
                 <li>Communicating with outside teams and product management on technical requirements</li>
+                <li>Working with BEM pattern & Atomic Design CSS</li>
+                <li>Help build a custom CDN with separate build pipeline in Buildkite</li>
+                <li>Building a custom article scroll spy with Javascript Intersection Observer</li>
+                <li>Tracking page analytics and visits with Segment.io</li>
               </ul>
             </p>
             <br />
@@ -472,17 +472,17 @@ class Portfolio extends Component {
           </Modal.Header>
           <Modal.Body>
             <p>
-              This is a single page application built with the most modern frameworks in mind: Rails 5 and GraphQL backend, React.js and Redux on the frontend using webpack with Bootstrap CSS.
+              This is a single page application built with the most modern frameworks in mind. Rails 5 and GraphQL backend, React.js and Redux on the frontend using webpack with Bootstrap CSS.
               This project is ongoing so check back in for more features!
             </p>
             <p>What I learned working on this project:
               <ul>
                 <li>More about how webpack works</li>
-                <li>Working with yarn to manage Javascript packages</li>
+                <li>About managing Javascript packages with Yarn</li>
                 <li>How to manage state with the Redux store plus Redux Form</li>
-                <li>Using a single endpoint for server requests with GraphQL</li>
-                <li>Strengthening my skills with React.js</li>
-                <li>Testing parts of the front end logic with Jest</li>
+                <li>How to maintain server resources with a single endpoint with GraqphQL</li>
+                <li>More about routing and organizing components with React.js</li>
+                <li>How to test front end logic with Jest</li>
               </ul>
             </p>
             <br/>
