@@ -202,7 +202,7 @@ class Portfolio extends Component {
                       </Media.Heading>
                       <p>
                         Tired of trying to figure out what to watch with your friends, family or spouse?
-                        One place to keep a list of all you’re favorite movies or ones you’ve always wanted to watch!
+                        One place to keep a list of all your favorite movies or ones you’ve always wanted to watch!
                         This application allows users to search for movies using the premiere source for movie metadata, TMDb (The Movie Database).
                         It’s as easy as sign up, search and add!
                       </p>
@@ -408,7 +408,7 @@ class Portfolio extends Component {
             </p>
             <br/>
             <p>
-              Check out live production example here:
+              Check out live production example here: 
               <ul>
                 <li>
                   <a target="_blank" href="https://www.policygenius.com/long-term-disability-insurance/learn"> https://www.policygenius.com/long-term-disability-insurance/learn</a>
@@ -477,12 +477,12 @@ class Portfolio extends Component {
             </p>
             <p>What I learned working on this project:
               <ul>
-                <li>More about how webpack works</li>
-                <li>About managing Javascript packages with Yarn</li>
+                <li>How to maintain and test a single endpoint for server resources with GraqphQL</li>
                 <li>How to manage state with the Redux store plus Redux Form</li>
-                <li>How to maintain server resources with a single endpoint with GraqphQL</li>
-                <li>More about routing and organizing components with React.js</li>
+                <li>How to route and organize components with React.js</li>
                 <li>How to test front end logic with Jest</li>
+                <li>About managing Javascript packages with Yarn</li>
+                <li>A better understanding of how webpack works</li>
               </ul>
             </p>
             <br/>
