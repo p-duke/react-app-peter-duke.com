@@ -29,7 +29,8 @@ class Experience extends Component {
                   <ul>
                     <li>Ruby on Rails</li>
                     <li>Javascript (AJAX, jQuery)</li>
-                    <li>React.js / Redux / Backbone.js</li>
+                    <li>React.js / Redux</li>
+                    <li>Backbone.js</li>
                     <li>Graphql</li>
                     <li>HTML5/CSS3</li>
                   </ul>
@@ -146,7 +147,7 @@ class Experience extends Component {
                       overlay={<Tooltip id={this.props.id}>Learn more about PolicyGenius!</Tooltip>} placement="top" 
                         delayShow={300} delayHide={150}>
                       <a target="_blank" href="https://policygenius.com/">
-                        <i className="fa fa-link font-a-link"></i> PolicyGenius | JUN 2017 - PRESENT</a>
+                        <i className="fa fa-link font-a-link"></i> PolicyGenius | JUN 2017 - SEPT 2017</a>
                     </OverlayTrigger>
                     </h3>
                       <div>
@@ -161,7 +162,7 @@ class Experience extends Component {
                             <p> Contributed to an internal CRM tool that helped insurance agents manage clients </p>
                           </li>
                           <li>
-                            <p> Worked on various internal applications that included Rails, React.js, Redux, and Graphql, Middleman framework, and DatoCMS </p>
+                            <p> Worked on various applications that included tools such as Rails, React.js, Redux, Graphql, Middleman, and Handlebars.</p>
                           </li>
                         </ul>
                       </div>

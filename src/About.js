@@ -25,7 +25,7 @@ class About extends Component {
                     </p>
                     <br/>
                     <button type="button" className="btn btn-info btn-lg">
-                      <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbTW13T3hhTEgweW8"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
+                      <a target="_blank" href="https://drive.google.com/open?id=0B43Ydmpo69cbYktubjdMSlNaM3c"><span className="glyphicon glyphicon-save-file" aria-hidden="true"></span> Download Resume</a>
                     </button>
                   </div>
                   <div className="col-md-4 text-center">
