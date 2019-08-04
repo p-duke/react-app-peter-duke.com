@@ -1,4 +1,3 @@
-
 var $ = require("jquery");
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {

@@ -30,9 +30,9 @@ class Navigation extends Component {
                       <li>
                           <a className="page-scroll" href="#projects">Projects</a>
                       </li>
-                      <li>
+                      {/* <li>
                           <a className="page-scroll" href="#experience">Experience</a>
-                      </li>
+                      </li> */}
                   </ul>
               </div>
               {/* <!-- /.navbar-collapse --> */}
